@@ -8,7 +8,13 @@ public class Interface2 implements Interface1 {
 		Interface2 obj=new Interface2();
 		obj.display();
 		obj.show();
+		obj.print();
 		// TODO Auto-generated method stub
+		//Reference Creation
+		Interface1 obj1=new Interface2();
+		obj1.display();
+		obj1.show();
+	
 
 	}
 
@@ -24,6 +30,10 @@ public class Interface2 implements Interface1 {
 		System.out.println("java");
 		// TODO Auto-generated method stub
 		
+	}
+	public void print()
+	{
+		System.out.println("hello");
 	}
 
 }
